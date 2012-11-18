@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="es-ES">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Carlos Blanco">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/custom.css" rel="stylesheet" media="screen">
+		<title>Geolocation with Google Maps</title>
+	</head>
+	<body onLoad="localizar()">
+		<h1>Geolocation with Google Maps</h1>
+		<div id="map"></div>
+		<input type="button" value="Ver Posición" onClick="position()">
+		<input type="button" value="Ver Precision" onClick="precision()">
+		<input type="button" value="Ver Altitud" onClick="altitud()">
+		<input type="button" value="Guardar Posicion" onClick="guardarPosicion()">
+		<input type="button" value="Mostrar Posicion" onClick="mostrarPosicion()">
+		<div id="texto"></div>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+	    <script type="text/javascript" src="scripts/script.js"></script>
+    </body>
+</html>	
